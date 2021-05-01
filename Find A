@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int main(){
+int i,count=0;
+char s1[100];
+
+printf("Enter message:");
+gets(s1);
+
+for(i=0;s1[i]!='\0';i++){
+    if(s1[i]=='a'||s1[i]=='A'){
+    count++;
+   }
+}
+
+printf("There are %d a",count);
+
+return 0;
+}
