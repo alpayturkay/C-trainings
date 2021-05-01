@@ -1,0 +1,18 @@
+//Average grade of the 6 p class
+#include<stdio.h>
+
+int main(){
+int counter=0;
+int grade;
+int average,total=0;
+
+while(counter<=5){
+    printf("Enter the grade:");
+    scanf("%d",&grade);
+    total=total+grade;
+    counter++;
+}
+average=total/6;
+printf("The average grade of the class is %d",average);
+return 0;
+}
