@@ -1,0 +1,27 @@
+/*C program to input number from user and
+ check whether the number is even or odd using switch case. How to check even or odd using switch case
+ in C programming. Logic to check whether a number is even or odd using switch case in C program. */
+ #include<stdio.h>
+
+ int main()
+ {
+     int number;
+
+     printf("Please enter a number to check its identity.");
+     scanf("%d",&number);
+
+     switch(number % 2)
+     {
+         case 0:
+         printf("This number is even.");
+         break;
+         case 1:
+            printf("This number is odd.");
+            break;
+
+
+     }
+     return 0;
+
+
+ }
