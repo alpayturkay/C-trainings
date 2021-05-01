@@ -1,0 +1,27 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int main(){
+
+char a[50];
+char b[50];
+
+printf("Enter your string:");
+scanf("%s",&a);
+printf("Enter your string:");
+scanf("%s",&b);
+
+if(strcmp(a,b)==-1){
+printf("Stringa<stringb\n");
+}
+else if(strcmp(a,b)==1){
+printf("After comcatenation %s ",strncat(a,b,3));
+}
+
+
+
+
+
+return 0;
+}
