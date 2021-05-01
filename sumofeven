@@ -1,0 +1,19 @@
+//Write a C program that calculates the sum of even integers between 1 and  n using a for loop.
+
+#include<stdio.h>
+
+int main(){
+int n,sum=0;
+printf("Enter a number:");
+scanf("%d",&n);
+int i;
+for(i=1;i<n;i=i+2){
+
+
+sum=sum+i;
+ printf("Sum is %d",sum);
+}
+
+
+return 0;
+}
