@@ -1,0 +1,20 @@
+#include<stdio.h>
+
+int fact(int);
+int main(){
+printf("Enter a number:");
+int x;
+scanf("%d",&x);
+printf("The factoriel of the number:%d",fact(x));
+return 0;
+}
+int fact(int x){
+	int i;
+int result = 1;
+for(i=1;i<=x;i++){
+    result=result*i;
+}
+return result;
+
+
+}
