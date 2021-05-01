@@ -1,0 +1,18 @@
+//The program that shows the largest(5 numbers taken by the user)
+#include<stdio.h>
+
+int main(){
+int i,entered,max=0;
+for(i=0;i<5;i++){
+printf("Enter numbers");
+scanf("%d entered",&entered);
+if(entered>max)
+{
+max=entered;}
+}
+printf("max:%d",max);
+
+
+
+return 0;
+}
