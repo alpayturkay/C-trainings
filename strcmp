@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<string.h>
+#include<ctype.h>
+
+int main(){
+
+char a[50];
+char b[50];
+
+printf("Enter your string:");
+gets(a);
+printf("Enter your string:");
+gets(b);
+
+printf("%d",strcmp(a,b));
+
+strncat(a,b,3);
+puts(a);
+
+
+return 0;
+}
